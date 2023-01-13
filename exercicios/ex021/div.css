@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+div{
+    width:130px;
+}
+div > p {
+    display: none;
+    
+}
+div:hover > p {
+    display: block;
+    background-color: yellow;
+    width: 120px;
+}
